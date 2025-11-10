@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-beige-50: #fdfbf8;
+    --color-beige-200: #f0e9df;
+    --color-beige-800: #7b6a58;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
